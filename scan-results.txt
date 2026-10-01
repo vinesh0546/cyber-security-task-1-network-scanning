@@ -1,0 +1,28 @@
+# Nmap 7.991 scan initiated Thu Oct  1 20:01:40 2026 as: nmap -sS -oN scan-results.txt 192.168.0.1 192.168.0.101 192.168.0.110
+Nmap scan report for 192.168.0.1
+Host is up (0.012s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: CC:32:E5:5F:33:3A (TP-Link Technologies)
+
+Nmap scan report for 192.168.0.101
+Host is up (0.013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+10000/tcp open  snet-sensor-mgmt
+MAC Address: 9C:A3:A9:B8:9E:70 (Guangzhou Juan Optical and Electronical Tech Joint Stock)
+
+Nmap scan report for 192.168.0.110
+Host is up (0.00050s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Thu Oct  1 20:01:44 2026 -- 3 IP addresses (3 hosts up) scanned in 3.93 seconds
